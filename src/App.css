@@ -2,8 +2,7 @@
   font-family: sans-serif;
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  
+  box-sizing: border-box; 
 }
  .App {
   display: flex;
@@ -12,15 +11,15 @@
   justify-content: center;
   min-height: 100vh;
   background-color: #f0f0f0;
-  padding: 20px;
+  padding: 100px;
+  /* margin-right: 100px; */
 }
 
 /* .component-container {
   margin-bottom: 50px;
 } */
 .component-container {
-  display: flex;
-  gap: 50px;
+  margin-right: 100px;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -60,4 +59,7 @@ button .fa-icon {
 button + button {
   margin-left: 50px;
 
+}
+#root {
+  margin-right: 500px;
 }

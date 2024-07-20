@@ -5,7 +5,7 @@ import SocialMediaPost from './components/SocialMediaPost';
 import GameNamePicker from './components/GameNamePicker';
 import ProgressBar from './components/ProgressBar';
 import ImageGallery from './components/ImageGallery';
-
+import './App.css';
 function App() {
   return (
     <div>
